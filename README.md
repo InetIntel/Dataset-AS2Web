@@ -3,7 +3,7 @@
 AS2Web is an Autonomous System (AS) to website mapping dataset. It maps ASes to the official websites of their operating organizations by combining Internet registry and operational data sources with fallback AI-based web search.
 
 <!-- Replace with final Zenodo badge and concept DOI once released. -->
-[![DOI](ZENODO_BADGE_URL_PLACEHOLDER)](ZENODO_CONCEPT_DOI_URL_PLACEHOLDER)
+[![DOI](https://zenodo.org/badge/563047649.svg)](https://doi.org/10.5281/zenodo.19645661)
 
 Please open an issue to report any inaccuracies in the dataset (include ASN, month, and evidence).
 
@@ -115,21 +115,21 @@ AS2Web aims to identify the official website of the organization operating each 
 ## Citation
 
 If you use this dataset, please cite the Zenodo **concept DOI** (all versions):
-
-<!-- Replace with final Zenodo concept DOI -->
-ZENODO_CONCEPT_DOI_PLACEHOLDER
+https://doi.org/10.5281/zenodo.19645661
 
 ```bibtex
-@software{AS2Web_concept,
-  author       = {AUTHOR_LIST_PLACEHOLDER},
-  title        = {AS2Web Dataset},
-  month        = MONTH_PLACEHOLDER,
-  year         = YEAR_PLACEHOLDER,
+@software{chen_as2web_concept,
+  author       = {Chen, Zhiyi and
+                  Bischof, Zachary and
+                  Testart, Cecilia and
+                  Dainotti, Alberto},
+  title        = {AS to Website Mapping (AS2Web)},
+  month        = apr,
+  year         = 2026,
   publisher    = {Zenodo},
-  doi          = {ZENODO_CONCEPT_DOI_PLACEHOLDER},
-  url          = {ZENODO_CONCEPT_URL_PLACEHOLDER},
-  note         = {Concept DOI (all versions). For a specific snapshot/release, please cite the corresponding Zenodo version DOI.},
-}
+  version      = {2026-03},
+  doi          = {10.5281/zenodo.19645661},
+  url          = {https://doi.org/10.5281/zenodo.19645661},
 ```
 
 If you find the methodology or framework described in our paper useful, please also cite:
