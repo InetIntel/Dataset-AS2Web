@@ -130,6 +130,7 @@ https://doi.org/10.5281/zenodo.19645661
   version      = {2026-03},
   doi          = {10.5281/zenodo.19645661},
   url          = {https://doi.org/10.5281/zenodo.19645661},
+}
 ```
 
 If you find the methodology or framework described in our paper useful, please also cite:
