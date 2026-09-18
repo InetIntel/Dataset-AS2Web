@@ -1,0 +1,12 @@
+# Locally reconstructed snapshots (may contain separately licensed third-party data)
+filled_data/
+
+# Cached third-party downloads a reconstruction script may be pointed at
+# inside this repo (should never be committed; see scripts/README.md)
+ipinfo_lite.csv.gz
+peeringdb_2_dump_*.json
+
+# OS / editor cruft
+.DS_Store
+__pycache__/
+*.pyc
